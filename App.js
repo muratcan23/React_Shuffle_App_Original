@@ -3,7 +3,6 @@ import React from "react";
 import { useState } from "react";
 
 function App() {
-  let itemList = [];
   const [numbers, setNumber] = useState([]);
   const arr1 = [];
   const arr2 = [];
@@ -42,7 +41,7 @@ function App() {
           return <span>*** {item}*** </span>;
         })}
         <br></br>
-        {arr2.map((item) => {
+        {arr3.map((item) => {
           return <span>*** {item}*** </span>;
         })}
         <br></br>
